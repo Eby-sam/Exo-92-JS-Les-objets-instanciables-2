@@ -5,7 +5,7 @@ function Personne(nom, prenom, age, sexe){
     this.sexe = sexe;
 
     this.getPersonne = function (){
-        return "Ma personne s'appelle " + this.nom + " " + this.prenom + ", elle a " + this.age + " ans, et est de sexe " + this.sexe;
+        return "Ma personne s'appelle " + this.nom + " " + this.prenom + ", il a " + this.age + " ans, et est de sexe " + this.sexe;
     }
 }
 
